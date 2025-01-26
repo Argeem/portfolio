@@ -1,0 +1,10 @@
+  # - changeSet:
+  #     id: sprint-xx-yyyy-mm-dd-migration-[name].sql
+  #     author: sitthisak
+  #     changes:
+  #       - sqlFile:
+  #           path: sql/sprint-xx/yyyy-mm-dd-migration-[name].sql
+  #       - rollback:
+  #           - sqlFile:
+  #               path: sql/sprint-xx/yyyy-mm-dd-rollback-[name].sql
+databaseChangeLog:
